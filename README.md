@@ -6,7 +6,7 @@ Contains: \
 Software Engineering \
 Data Engineering \
 Game Development \
-Writing
+Writing Samples
 
 ## Online Courses
 Contains: \
