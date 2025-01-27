@@ -11,4 +11,5 @@ Writing Samples
 ## Online Courses
 Contains: \
 100 Days of Code The Complete Python Pro Bootcamp \
-Python Data Structures & Algorithms
+Python Data Structures & Algorithms \
+Data Engineering Course
