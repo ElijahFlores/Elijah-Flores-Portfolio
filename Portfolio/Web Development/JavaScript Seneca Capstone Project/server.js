@@ -90,7 +90,8 @@ app.get("/articles", (req, res) => {
 app.get("/article/:Id", (req, res) => {
     contentData
       .getArticleByID(req.params.Id)
-      .then((article) => {
+      .then((articles) => {
+        const article = articles[0];
         if (article.published === true)
           res.render("article", { article: article });
         else res.status(404).json({ message: "404: Article Not Found" });
